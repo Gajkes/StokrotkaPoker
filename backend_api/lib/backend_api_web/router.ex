@@ -7,6 +7,12 @@ defmodule BackendApiWeb.Router do
 
   scope "/api", BackendApiWeb do
     pipe_through :api
+
+    get "/leaderboard", UserController, :leaderboard
+    resources "/users", UserController, except: [:new, :edit]
+    resources "/games", GameController, except: [:new, :edit]
+    resources "/buy_ins", BuyInController, except: [:new, :edit]
+    resources "/results", ResultController, except: [:new, :edit]
   end
 
   # Enable LiveDashboard and Swoosh mailbox preview in development

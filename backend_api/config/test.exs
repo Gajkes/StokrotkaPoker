@@ -17,7 +17,7 @@ config :backend_api, BackendApi.Repo,
 # you can enable the server option below.
 config :backend_api, BackendApiWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "9R4VtlfurWLvzGCb0uv4n3wKSRTy26tl0ctjTfrbhzCxphq5ansQKdSKD7vT9/09",
+  secret_key_base: "VPBVhVRvYvVgCLrj8xIyHeJtwNRfGEb2PSWsRjJeeXTZaxAwDKnAewVfP0R35TZN",
   server: false
 
 # In test we don't send emails

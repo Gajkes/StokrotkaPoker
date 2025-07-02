@@ -23,7 +23,7 @@ config :backend_api, BackendApiWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "s7Qn/w9GiHiCtIF3qvTkq5tu6ZpgJmMwz5JyaRrtK/wihVG5Imkp+MHj3mc3YY/+",
+  secret_key_base: "PxQn99eqw4DVsBTMmh+Wi8Fw9/cQ+eko8mJNsxS2Y6PpPoVt613cc190J+9sd+BX",
   watchers: []
 
 # ## SSL Support

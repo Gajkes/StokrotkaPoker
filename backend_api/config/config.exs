@@ -20,7 +20,7 @@ config :backend_api, BackendApiWeb.Endpoint,
     layout: false
   ],
   pubsub_server: BackendApi.PubSub,
-  live_view: [signing_salt: "6zAVS1Kj"]
+  live_view: [signing_salt: "eLfxZ1j1"]
 
 # Configures the mailer
 #
